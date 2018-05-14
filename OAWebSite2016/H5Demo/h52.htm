@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>canvas的演示(鼠标监视坐标值)</title>
+
+    <script type="text/javascript" src="/H-ui.admin/lib/jquery/1.9.1/jquery.min.js"></script>
+
+    <script language ="javascript">
+        //增加一个站点
+        var rMax = 30;
+        function addStation(x, y, sname) {
+                       
+                var v1 = '<svg id="svgCircleTutorial" height="{h}" width="{w}" xmlns="http://www.w3.org/2000/svg"  style="border:solid 1px black;position: absolute; left:{left}; top:{top}">';
+                v1=v1+'<circle cx="{x0}" cy="{y0}" r="{r0}" fill="white" stroke="green" stroke-width="1" />';
+                v1=v1+'<circle cx="{x1}" cy="{y1}" r="{r1}" fill="white" stroke="green" stroke-width="1" />';
+                v1=v1+'<text x="{tx}" y="{ty}" fill="black">{name}</text>';
+                v1 = v1 + '</svg>';
+
+                //alert(v1);
+
+                var left = x - rMax ;
+                var top = y - rMax ;
+
+                var h = rMax * 2+20;
+                var w = rMax*4;
+
+                var x0 = left + rMax;
+                var y0 = top+rMax ;
+                
+                var x1 = x0;
+                var y1 = y0;
+                
+                var r0 = rMax;
+                var r1 = r0 - 5;
+
+                var tx = left + 5;
+                var ty = top+2*rMax+5 ;
+
+                v1 = v1.replace("{h}", h + "").replace("{w}", w + "").replace("{left}", left + "").replace("{top}", top + "");
+                v1 = v1.replace("{x0}", x0 + "").replace("{y0}", y0 + "").replace("{r0}", r0 + "");
+                v1 = v1.replace("{x1}", x0 + "").replace("{y1}", y0 + "").replace("{r1}", r1 + "");
+                v1=v1.replace("{tx}", tx + "").replace("{ty}", ty + "").replace("{name}", sname);
+
+                alert(v1);
+                //alert($("#station").html());
+
+                $("#station").html($("#station").html() + v1)  ;
+                
+        }
+    </script>
+</head>
+<body>
+    <table style="width: 99%; height: 1000px; border: solid 1px gray" align="center">
+        <tr>
+            <td>
+                <button id="but1">
+                    增加站点</button>
+                &nbsp;&nbsp;
+                <button id="Button1" onclick="addStation(100,100,'北京西');">
+                    增加线路</button>
+            </td>
+        </tr>
+        <tr>
+            <td style="height: 990px; vertical-align:top">
+                <div id="station">
+                    
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

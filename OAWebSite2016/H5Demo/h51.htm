@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>canvas的演示(鼠标监视坐标值)</title>
+
+    <script type="text/javascript" src="/H-ui.admin/lib/jquery/1.9.1/jquery.min.js"></script>
+
+</head>
+<body>
+    当前位置： <span id="xy"></span>
+    <br />
+    <canvas width="578" height="500" id="myCanvas" onmousemove="mousexy(event)"
+     onclick="addStation()"  style="border:1px solid #d3d3d3;" >不支持H5</canvas>
+     
+   
+
+    <script type="text/javascript">
+
+        var currentX = 0;
+        var currentY = 0;
+        
+        var c = document.getElementById("myCanvas");
+
+        var context = c.getContext("2d");
+       
+
+        function mousexy(n) {
+            currentX = n.clientX;
+            currentY = n.clientY;
+            document.getElementById("xy").innerHTML = "x:" + currentX + "    y:" + currentY;
+        }
+
+
+        //增加一个站点
+        function addStation() {
+           // alert("onclick");
+            //在用户选中的位置画个小圆
+            //context.fillStyle = "blue";
+            context.beginPath();
+            context.arc(currentX, currentY, 20, 0, Math.PI * 2, true);
+            context.closePath();
+            context.fill();
+        }
+        
+    </script>
+
+</body>
+</html>
