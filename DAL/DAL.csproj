@@ -81,22 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Tb_KaoHeOtherDA.cs" />
-    <Compile Include="Tb_KaoHeZhiBiaoDA.cs" />
-    <Compile Include="Tb_KH_MonthDA.cs" />
-    <Compile Include="Tb_KH_ProjectDA.cs" />
-    <Compile Include="Tb_KH_Project_PersonDA.cs" />
-    <Compile Include="Tb_PL_MonthDA.cs" />
-    <Compile Include="Tb_PL_Month_DetailDA.cs" />
-    <Compile Include="Tb_ProjectDA.cs" />
-    <Compile Include="Tb_Project_LogDA.cs" />
-    <Compile Include="Tb_Project_PersonDA.cs" />
-    <Compile Include="Tb_TaskDA.cs" />
-    <Compile Include="Tb_Task_BugDA.cs" />
-    <Compile Include="Tb_Task_LogDA.cs" />
-    <Compile Include="Tb_WorkLogDA.cs" />
-    <Compile Include="Tb_WorkLogReadersDA.cs" />
-    <Compile Include="Tb_WorkReminderDA.cs" />
     <Compile Include="WebFrame\JAttachmentDA.cs" />
     <Compile Include="WebFrame\JAuthorityDA.cs" />
     <Compile Include="WebFrame\JAuthorityDetailDA.cs" />
@@ -116,9 +100,6 @@
     <Compile Include="WebFrame\JUserDataDA.cs" />
     <Compile Include="WebFrame\JUserLoginLogDA.cs" />
     <Compile Include="WebFrame\JUserUrlDA.cs" />
-    <Compile Include="Tb_DebugDA.cs" />
-    <Compile Include="Tb_PlanDetailDA.cs" />
-    <Compile Include="Tb_PlanDA.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DDL\DDL.csproj">

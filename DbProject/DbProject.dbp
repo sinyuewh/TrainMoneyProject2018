@@ -1,7 +1,7 @@
 # Microsoft Developer Studio 项目文件 -- 数据库项目
 Begin DataProject = "DbProject"
    MSDTVersion = "80"
-   DefDBRef = "ITDB.mdb"
+   DefDBRef = "desktop-qg7mv65.TrainDb2018.dbo"
    SccProjectName = "Svn"
    SccLocalPath = "Svn"
    SccAuxPath = "Svn"
@@ -11,6 +11,17 @@ Begin DataProject = "DbProject"
          Script = "|01帖子分类.sql|003000315e165b5052067c7b002e00730071006c"
          Script = "|02技术帖子.sql|003000326280672f5e165b50002e00730071006c"
          Script = "|03帖子回复.sql|003000335e165b5056de590d002e00730071006c"
+      End
+      Begin Folder = "|列车开行系统|52178f665f00884c7cfb7edf"
+         Script = "|010线路数据（表结构）.sql|0030003100307ebf8def6570636eff0888687ed36784ff09002e00730071006c"
+         Script = "|011线路数据（数据）.sql|0030003100317ebf8def6570636eff086570636eff09002e00730071006c"
+         Script = "|020线路站点（表结构）.sql|0030003200307ebf8def7ad970b9ff0888687ed36784ff09002e00730071006c"
+         Script = "|021线路站点（数据）.sql|0030003200317ebf8def7ad970b9ff086570636eff09002e00730071006c"
+         Script = "|03站点别名（表结构和数据）.sql|003000337ad970b9522b540dff0888687ed36784548c6570636eff09002e00730071006c"
+         Script = "|04公司快捷列表.sql|00300034516c53f85feb637752178868002e00730071006c"
+         Script = "|05站点快捷列表.sql|003000357ad970b95feb637752178868002e00730071006c"
+         Script = "|06铁路局数据（大站主表）.sql|0030003694c18def5c406570636eff0859277ad94e3b8868ff09002e00730071006c"
+         Script = "|07铁路局大站数据.sql|0030003794c18def5c4059277ad96570636e002e00730071006c"
       End
       Begin Folder = "|数据清理|6570636e6e057406"
          Script = "|清理数据1.sql|6e0574066570636e0031002e00730071006c"
@@ -38,10 +49,10 @@ Begin DataProject = "DbProject"
       End
    End
    Begin DBRefFolder = "Database References"
-      Begin DBRefNode = "ITDB.mdb"
-         ConnectStr = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=F:\MyWork\ITSolution2016\OAWebSite2016\App_Data\ITDB.mdb;Persist Security Info=True"
-         Provider = "{7F041D59-D76A-44ED-9AA2-FBF6B0548B80}"
-         Colorizer = 65536
+      Begin DBRefNode = "desktop-qg7mv65.TrainDb2018.dbo"
+         ConnectStr = "Data Source=.;Initial Catalog=TrainDb2018;Integrated Security=True;Pooling=False"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
       End
    End
    Begin Folder = "Frame"

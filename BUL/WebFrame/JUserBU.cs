@@ -585,6 +585,7 @@ namespace KORWeb.BUL
                             FrameLib.UserName = data1["UserName"].ToString();               //用户的UserName
                             FrameLib.AuthorityGroup = data1["AuthorityGroup"].ToString();   //表示用户的类别
                             
+                            /*
                             FrameLib.DepartID = data1["DepartID"].ToString();               //表示用户所属的部门ID
 
                             //根据部门的ID设置部门的Num（数据权限用）
@@ -595,7 +596,8 @@ namespace KORWeb.BUL
                             if(r1!=null)
                             {
                                 departNum = r1["num"].ToString();
-                            }
+                            }*/
+
 
                             Userid = data1["userid"].ToString();
 

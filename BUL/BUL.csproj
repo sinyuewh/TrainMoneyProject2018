@@ -105,31 +105,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Project\Tb_DebugBU.cs" />
-    <Compile Include="Project\Tb_PL_MonthBU.cs" />
-    <Compile Include="Project\Tb_PL_Month_DetailBU.cs" />
-    <Compile Include="Project\Tb_PlanDetailBU.cs" />
-    <Compile Include="Project\Tb_PlanBU.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Project\Tb_ProjectBU.cs" />
-    <Compile Include="Project\Tb_Project_PersonBU.cs" />
-    <Compile Include="Project\Tb_Project_LogBU.cs" />
-    <Compile Include="Project\Tb_TaskBU.cs" />
-    <Compile Include="Project\Tb_Task_LogBU.cs" />
-    <Compile Include="Project\Tb_Task_BugBU.cs" />
-    <Compile Include="Project\Tb_WorkLogBU.cs" />
-    <Compile Include="Project\Tb_WorkLogReadersBU.cs" />
-    <Compile Include="Project\Tb_KH_MonthBU.cs" />
-    <Compile Include="Project\Tb_KH_ProjectBU.cs" />
-    <Compile Include="Project\Tb_KH_Project_PersonBU.cs" />
-    <Compile Include="Project\Tb_WorkReminderBU.cs" />
-    <Compile Include="Project\Tb_KaoHeOtherBU.cs" />
-    <Compile Include="Project\Tb_KaoHeZhiBiaoBU.cs" />
     <Compile Include="Util\CommBU.cs" />
     <Compile Include="Util\CurrentProfile.cs" />
     <Compile Include="Util\MenuXMLBU.cs" />
@@ -175,6 +156,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Project\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

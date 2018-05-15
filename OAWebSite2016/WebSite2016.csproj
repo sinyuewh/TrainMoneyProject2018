@@ -219,125 +219,6 @@
     <Compile Include="SysManager\ManagerIndex.aspx.designer.cs">
       <DependentUpon>ManagerIndex.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SysManager\WebUI\CheckMng\Tjfx1.aspx.cs">
-      <DependentUpon>Tjfx1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\CheckMng\Tjfx1.aspx.designer.cs">
-      <DependentUpon>Tjfx1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\CheckMng\Tjfx2.aspx.cs">
-      <DependentUpon>Tjfx2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\CheckMng\Tjfx2.aspx.designer.cs">
-      <DependentUpon>Tjfx2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Handler\DoAction.aspx.cs">
-      <DependentUpon>DoAction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Handler\DoAction.aspx.designer.cs">
-      <DependentUpon>DoAction.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogAdd.aspx.cs">
-      <DependentUpon>ProblemLogAdd.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogAdd.aspx.designer.cs">
-      <DependentUpon>ProblemLogAdd.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogDetail.aspx.cs">
-      <DependentUpon>ProblemLogDetail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogDetail.aspx.designer.cs">
-      <DependentUpon>ProblemLogDetail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogList.aspx.cs">
-      <DependentUpon>ProblemLogList.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogList.aspx.designer.cs">
-      <DependentUpon>ProblemLogList.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\SelectProjectPerson.aspx.cs">
-      <DependentUpon>SelectProjectPerson.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\SelectProjectPerson.aspx.designer.cs">
-      <DependentUpon>SelectProjectPerson.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Attachment_ADD.aspx.cs">
-      <DependentUpon>Tb_Project_Attachment_ADD.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Attachment_ADD.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Attachment_ADD.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Detail.aspx.cs">
-      <DependentUpon>Tb_Project_Detail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Detail.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Detail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Detail_ADD.aspx.cs">
-      <DependentUpon>Tb_Project_Detail_ADD.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Detail_ADD.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Detail_ADD.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Log.aspx.cs">
-      <DependentUpon>Tb_Project_Log.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Log.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Log.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Log_ADD.aspx.cs">
-      <DependentUpon>Tb_Project_Log_ADD.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Log_ADD.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Log_ADD.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Log_Detail.aspx.cs">
-      <DependentUpon>Tb_Project_Log_Detail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\Tb_Project_Log_Detail.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Log_Detail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person.aspx.cs">
-      <DependentUpon>Tb_Project_Person.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Person.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person_ADD.aspx.cs">
-      <DependentUpon>Tb_Project_Person_ADD.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person_ADD.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Person_ADD.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_delay.aspx.cs">
-      <DependentUpon>Tb_Project_delay.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_delay.aspx.designer.cs">
-      <DependentUpon>Tb_Project_delay.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person_Edit.aspx.cs">
-      <DependentUpon>Tb_Project_Person_Edit.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person_Edit.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Person_Edit.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SysManager\WebUI\SysMng\JItemMng\JItem_Detail.aspx.cs">
       <DependentUpon>JItem_Detail.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -359,55 +240,6 @@
     <Compile Include="SysManager\WebUI\SysMng\JItemMng\JItem_SetItemValues.aspx.designer.cs">
       <DependentUpon>JItem_SetItemValues.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\JLogData_Detail_ADD.aspx.cs">
-      <DependentUpon>JLogData_Detail_ADD.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\JLogData_Detail_ADD.aspx.designer.cs">
-      <DependentUpon>JLogData_Detail_ADD.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\JLog_Data_Detail.aspx.cs">
-      <DependentUpon>JLog_Data_Detail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\JLog_Data_Detail.aspx.designer.cs">
-      <DependentUpon>JLog_Data_Detail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\JLog_Detail.aspx.cs">
-      <DependentUpon>JLog_Detail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\JLog_Detail.aspx.designer.cs">
-      <DependentUpon>JLog_Detail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\TodayWorkList1.aspx.cs">
-      <DependentUpon>TodayWorkList1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\TodayWorkList1.aspx.designer.cs">
-      <DependentUpon>TodayWorkList1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\TodayWorkList2.aspx.cs">
-      <DependentUpon>TodayWorkList2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\TodayWorkList2.aspx.designer.cs">
-      <DependentUpon>TodayWorkList2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\TodayWorkList3.aspx.cs">
-      <DependentUpon>TodayWorkList3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\TodayWorkList3.aspx.designer.cs">
-      <DependentUpon>TodayWorkList3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Handler\DoAction.aspx.cs">
-      <DependentUpon>DoAction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Handler\DoAction.aspx.designer.cs">
-      <DependentUpon>DoAction.aspx</DependentUpon>
-    </Compile>
     <Compile Include="SysManager\WebUI\PubLib\GetEasyUITreeData.aspx.cs">
       <DependentUpon>GetEasyUITreeData.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -421,55 +253,6 @@
     </Compile>
     <Compile Include="SysManager\WebUI\PubLib\SelectUsersTree.aspx.designer.cs">
       <DependentUpon>SelectUsersTree.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogDetail1.aspx.cs">
-      <DependentUpon>WorkLogDetail1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogDetail1.aspx.designer.cs">
-      <DependentUpon>WorkLogDetail1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkReminderDetail.aspx.cs">
-      <DependentUpon>WorkReminderDetail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkReminderDetail.aspx.designer.cs">
-      <DependentUpon>WorkReminderDetail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkReminderList1.aspx.cs">
-      <DependentUpon>WorkReminderList1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkReminderList1.aspx.designer.cs">
-      <DependentUpon>WorkReminderList1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkReminderList2.aspx.cs">
-      <DependentUpon>WorkReminderList2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkReminderList2.aspx.designer.cs">
-      <DependentUpon>WorkReminderList2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD.aspx.cs">
-      <DependentUpon>Tb_Project_Detail_ADD.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Detail_ADD.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD2.aspx.cs">
-      <DependentUpon>Tb_Project_Detail_ADD2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD2.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Detail_ADD2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD3.aspx.cs">
-      <DependentUpon>Tb_Project_Detail_ADD3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD3.aspx.designer.cs">
-      <DependentUpon>Tb_Project_Detail_ADD3.aspx</DependentUpon>
     </Compile>
     <Compile Include="Test.aspx.cs">
       <DependentUpon>Test.aspx</DependentUpon>
@@ -554,34 +337,6 @@
     </Compile>
     <Compile Include="SysManager\WebUI\SysMng\UserMng\JUser_List.aspx.designer.cs">
       <DependentUpon>JUser_List.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\Handler\DoAction.aspx.cs">
-      <DependentUpon>DoAction.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\Handler\DoAction.aspx.designer.cs">
-      <DependentUpon>DoAction.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogDetail.aspx.cs">
-      <DependentUpon>WorkLogDetail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogDetail.aspx.designer.cs">
-      <DependentUpon>WorkLogDetail.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogList1.aspx.cs">
-      <DependentUpon>WorkLogList1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogList1.aspx.designer.cs">
-      <DependentUpon>WorkLogList1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogList2.aspx.cs">
-      <DependentUpon>WorkLogList2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SysManager\WebUI\WorkLogMng\WorkLogList2.aspx.designer.cs">
-      <DependentUpon>WorkLogList2.aspx</DependentUpon>
     </Compile>
     <Compile Include="SysManager\Welcome.aspx.cs">
       <DependentUpon>Welcome.aspx</DependentUpon>
@@ -696,52 +451,11 @@
     <Content Include="SysManager\Frame\FrameMenu.xml" />
     <Content Include="SysManager\HomePage.aspx" />
     <Content Include="SysManager\ManagerIndex.aspx" />
-    <Content Include="SysManager\WebUI\CheckMng\Tjfx1.aspx" />
-    <Content Include="SysManager\WebUI\CheckMng\Tjfx2.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\Handler\DoAction.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogAdd.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogDetail.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProblemLog\ProblemLogList.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\SelectProjectPerson.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\Tb_Project_Attachment_ADD.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Detail.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Detail_ADD.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_List1.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\Tb_Project_Log.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\Tb_Project_Log_ADD.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\Tb_Project_Log_Detail.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person_ADD.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_delay.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Person_Edit.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\ProjectInfo\Tb_Project_Log1.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\Tb_Project_Attachment1.aspx" />
-    <Content Include="SysManager\WebUI\ProjectMng\Tb_Project_Attachment2.aspx" />
     <Content Include="SysManager\WebUI\SysMng\JItemMng\JItem_Detail.aspx" />
     <Content Include="SysManager\WebUI\SysMng\JItemMng\JItem_List.aspx" />
     <Content Include="SysManager\WebUI\SysMng\JItemMng\JItem_SetItemValues.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\JLogData_Detail_ADD.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\JLog_Data_Detail.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\JLog_Detail.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\TodayWorkList1.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\TodayWorkList2.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\TodayWorkList3.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Handler\DoAction.aspx" />
     <Content Include="SysManager\WebUI\PubLib\GetEasyUITreeData.aspx" />
     <Content Include="SysManager\WebUI\PubLib\SelectUsersTree.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\WorkLogDetail1.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\WorkReminderDetail.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\WorkReminderList1.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\WorkReminderList2.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Plan_List1.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Plan_Detail1.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Plan_List2.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Plan_Detail2.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD2.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Plan_List3.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Project_Detail_ADD3.aspx" />
-    <Content Include="SysManager\WebUI\WorkPlanMng\Tb_Plan_Detail3.aspx" />
     <Content Include="Test.aspx" />
     <Content Include="SysManager\WebUI\SysMng\ChangePassWord.aspx" />
     <Content Include="SysManager\WebUI\SysMng\OrgMng\JOrg_Detail.aspx" />
@@ -754,10 +468,6 @@
     <Content Include="SysManager\WebUI\SysMng\UserMng\JUser_Detail.aspx" />
     <Content Include="SysManager\WebUI\SysMng\UserMng\JUser_Detail_ADD.aspx" />
     <Content Include="SysManager\WebUI\SysMng\UserMng\JUser_List.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\Handler\DoAction.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\WorkLogDetail.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\WorkLogList1.aspx" />
-    <Content Include="SysManager\WebUI\WorkLogMng\WorkLogList2.aspx" />
     <Content Include="SysManager\Welcome.aspx" />
     <Content Include="Test\Test1.aspx" />
     <Content Include="Test\Test2.aspx" />
@@ -766,9 +476,6 @@
     <EmbeddedResource Include="Comm\SaveWordDoc.aspx.resx">
       <DependentUpon>SaveWordDoc.aspx.cs</DependentUpon>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="SysManager\WebUI\CheckMng\Handler\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />

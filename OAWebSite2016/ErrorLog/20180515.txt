@@ -1,0 +1,153 @@
+2018/5/15 20:35:36
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 不支持关键字: “initial catalog”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.OracleClient.OracleConnectionString..ctor(String connectionString)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnectionOptions(String connectionOptions, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(String connectionString, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.OracleClient.OracleConnection.ConnectionString_Set(String value)
+   在 System.Data.OracleClient.OracleConnection.set_ConnectionString(String value)
+   在 System.Data.OracleClient.OracleConnection..ctor(String connectionString)
+   在 WebFrame.Data.JConnect.SetConnect(String ConnectName)
+   在 WebFrame.Data.JConnect.GetConnect(String ConnectName)
+   在 WebFrame.Data.JConnect.GetConnect()
+   在 KORWeb.DAL.JUserDA..ctor() 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\DAL\WebFrame\JUserDA.cs:行号 27
+   在 KORWeb.BUL.JUserBU.Login(String userName, String PassWord, String& Userid, String& departNum) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\BUL\WebFrame\JUserBU.cs:行号 549
+   在 OAWebSite2016.Login.AdminLogin.but1_Click(Object sender, EventArgs e) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\OAWebSite2016\Login\AdminLogin.aspx.cs:行号 33
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_adminlogin_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\asus\AppData\Local\Temp\Temporary ASP.NET Files\root\1a993308\b368d02e\App_Web_ucvox_kb.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+----------------------------------------------------------------------------------------------------
+2018/5/15 20:35:37
+System.Web.HttpException: 文件不存在。
+   在 System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)
+   在 System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context)
+   在 System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+----------------------------------------------------------------------------------------------------
+2018/5/15 20:35:38
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 不支持关键字: “initial catalog”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.OracleClient.OracleConnectionString..ctor(String connectionString)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnectionOptions(String connectionOptions, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(String connectionString, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.OracleClient.OracleConnection.ConnectionString_Set(String value)
+   在 System.Data.OracleClient.OracleConnection.set_ConnectionString(String value)
+   在 System.Data.OracleClient.OracleConnection..ctor(String connectionString)
+   在 WebFrame.Data.JConnect.SetConnect(String ConnectName)
+   在 WebFrame.Data.JConnect.GetConnect(String ConnectName)
+   在 WebFrame.Data.JConnect.GetConnect()
+   在 KORWeb.DAL.JUserDA..ctor() 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\DAL\WebFrame\JUserDA.cs:行号 27
+   在 KORWeb.BUL.JUserBU.Login(String userName, String PassWord, String& Userid, String& departNum) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\BUL\WebFrame\JUserBU.cs:行号 549
+   在 OAWebSite2016.Login.AdminLogin.but1_Click(Object sender, EventArgs e) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\OAWebSite2016\Login\AdminLogin.aspx.cs:行号 33
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_adminlogin_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\asus\AppData\Local\Temp\Temporary ASP.NET Files\root\1a993308\b368d02e\App_Web_ucvox_kb.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+----------------------------------------------------------------------------------------------------
+2018/5/15 20:37:44
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 不支持关键字: “initial catalog”。
+   在 System.Data.Common.DbConnectionOptions.ParseInternal(Hashtable parsetable, String connectionString, Boolean buildChain, Hashtable synonyms, Boolean firstKey)
+   在 System.Data.Common.DbConnectionOptions..ctor(String connectionString, Hashtable synonyms, Boolean useOdbcRules)
+   在 System.Data.OracleClient.OracleConnectionString..ctor(String connectionString)
+   在 System.Data.OracleClient.OracleConnectionFactory.CreateConnectionOptions(String connectionOptions, DbConnectionOptions previous)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(String connectionString, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   在 System.Data.OracleClient.OracleConnection.ConnectionString_Set(String value)
+   在 System.Data.OracleClient.OracleConnection.set_ConnectionString(String value)
+   在 System.Data.OracleClient.OracleConnection..ctor(String connectionString)
+   在 WebFrame.Data.JConnect.SetConnect(String ConnectName)
+   在 WebFrame.Data.JConnect.GetConnect(String ConnectName)
+   在 WebFrame.Data.JConnect.GetConnect()
+   在 KORWeb.DAL.JUserDA..ctor() 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\DAL\WebFrame\JUserDA.cs:行号 27
+   在 KORWeb.BUL.JUserBU.Login(String userName, String PassWord, String& Userid, String& departNum) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\BUL\WebFrame\JUserBU.cs:行号 549
+   在 OAWebSite2016.Login.AdminLogin.but1_Click(Object sender, EventArgs e) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\OAWebSite2016\Login\AdminLogin.aspx.cs:行号 33
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_adminlogin_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\asus\AppData\Local\Temp\Temporary ASP.NET Files\root\1a993308\b368d02e\App_Web_ucvox_kb.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+----------------------------------------------------------------------------------------------------
+2018/5/15 20:39:19
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“DepartID”不属于表 Table0。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 KORWeb.BUL.JUserBU.Login(String userName, String PassWord, String& Userid, String& departNum) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\BUL\WebFrame\JUserBU.cs:行号 588
+   在 OAWebSite2016.Login.AdminLogin.but1_Click(Object sender, EventArgs e) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\OAWebSite2016\Login\AdminLogin.aspx.cs:行号 33
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_adminlogin_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\asus\AppData\Local\Temp\Temporary ASP.NET Files\root\1a993308\b368d02e\App_Web_ucvox_kb.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+----------------------------------------------------------------------------------------------------
+2018/5/15 20:40:43
+System.Web.HttpUnhandledException: 引发类型为“System.Web.HttpUnhandledException”的异常。 ---> System.ArgumentException: 列“DepartID”不属于表 Table0。
+   在 System.Data.DataRow.GetDataColumn(String columnName)
+   在 System.Data.DataRow.get_Item(String columnName)
+   在 KORWeb.BUL.JUserBU.Login(String userName, String PassWord, String& Userid, String& departNum) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\BUL\WebFrame\JUserBU.cs:行号 588
+   在 OAWebSite2016.Login.AdminLogin.but1_Click(Object sender, EventArgs e) 位置 E:\MyProject2017\CurrentProject\TrainMoneyProject2018\OAWebSite2016\Login\AdminLogin.aspx.cs:行号 33
+   在 System.Web.UI.WebControls.LinkButton.OnClick(EventArgs e)
+   在 System.Web.UI.WebControls.LinkButton.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.WebControls.LinkButton.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   在 System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.login_adminlogin_aspx.ProcessRequest(HttpContext context) 位置 c:\Users\asus\AppData\Local\Temp\Temporary ASP.NET Files\root\1a993308\b368d02e\App_Web_ucvox_kb.1.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+----------------------------------------------------------------------------------------------------
