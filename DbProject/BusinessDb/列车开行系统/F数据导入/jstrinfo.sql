@@ -1,6 +1,7 @@
-﻿--在表 JStrInfo中增加字段syskind // SYSKINDVARCHAR2(1)	Y		
+﻿ --在表 JStrInfo中增加字段syskind // SYSKINDVARCHAR2(1)	Y	
+delete from Jstrinfo
+	
 --插入数据
-/**
 insert into JSTRINFO (NUM, STRID, AUTHOR, CREATETIME, MODELID, REMARK, SYSKIND, STRTEXT)
 values (1, '基本硬座费率', null, null, null, '硬座的基本费率', null, '0.05861');
 
@@ -90,5 +91,5 @@ values (37, '间接费用分摊', null, null, null, '间接费用分摊', '0', '
 insert into JSTRINFO (NUM, STRID, AUTHOR, CREATETIME, MODELID, REMARK, SYSKIND, STRTEXT)
 values (38, '检修费率系数', null, null, null, '检修费率系数', '0', '1');	
 
-*/
+
  

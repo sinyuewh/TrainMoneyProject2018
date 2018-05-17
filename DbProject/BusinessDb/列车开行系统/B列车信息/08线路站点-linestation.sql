@@ -1,4 +1,42 @@
-﻿ insert into LINESTATION (ID, LINEID, NUM, ASTATION, BSTATION, MILES, MILESCLASS, DIRECTION, JNFLAG, DQH, SHIPFLAG, FEE1, FEE2, FEE3, FEE4, GTLLX, KZID, CJLID)
+﻿/*
+  线路站点（线路的子表）
+*/
+
+IF EXISTS (SELECT * FROM sysobjects WHERE type = 'U' AND name = 'linestation')
+	BEGIN
+		DROP  Table linestation
+	END
+GO
+
+CREATE TABLE linestation
+(
+	  id         integer not null primary key,				--数据ID
+	  lineid     integer,									--线路ID
+	  num        integer,									--序号
+	  astation   varchar(50) not null,						--起点
+	  bstation   varchar(50) not null,						--终点
+	  miles      integer,									--里程（km)
+	  milesclass integer,									--里程类别
+	  direction  integer,									--方向
+	  jnflag     integer,									--局内标志（1局内 空非局内）
+	  dqh        varchar(10),								--电气化标志（1电气化 空非电气化）
+	  shipflag   varchar(1),								--轮渡标志（1轮渡 空-非轮渡）
+	  fee1       integer,
+	  fee2       integer,
+	  fee3       integer,
+	  fee4       integer,
+	  gtllx      varchar(10),								--高铁联络线标志（1是联络线 空-不是）
+	  kzid       integer,
+	  cjlid      integer
+)
+GO
+create index LINESTATION_ASTATION on LINESTATION (ASTATION);
+create index LINESTATION_BSTATION on LINESTATION (BSTATION);
+create index LINESTATION_DQH on LINESTATION (DQH);
+create index LINESTATION_LINEID on LINESTATION (LINEID);
+
+--插入数据
+ insert into LINESTATION (ID, LINEID, NUM, ASTATION, BSTATION, MILES, MILESCLASS, DIRECTION, JNFLAG, DQH, SHIPFLAG, FEE1, FEE2, FEE3, FEE4, GTLLX, KZID, CJLID)
 values (49, 656, 1, '南京南', '亭子山', 40, null, 0, null, '1', null, null, null, null, null, null, null, null);
 insert into LINESTATION (ID, LINEID, NUM, ASTATION, BSTATION, MILES, MILESCLASS, DIRECTION, JNFLAG, DQH, SHIPFLAG, FEE1, FEE2, FEE3, FEE4, GTLLX, KZID, CJLID)
 values (50, 656, 1, '亭子山', '南京南', 40, null, 1, null, '1', null, null, null, null, null, null, null, null);
@@ -5766,4 +5804,7 @@ insert into LINESTATION (ID, LINEID, NUM, ASTATION, BSTATION, MILES, MILESCLASS,
 values (10989, 2, 14, '泰山', '党家庄', 58, null, 1, null, '1', null, null, null, null, null, null, null, null);
 insert into LINESTATION (ID, LINEID, NUM, ASTATION, BSTATION, MILES, MILESCLASS, DIRECTION, JNFLAG, DQH, SHIPFLAG, FEE1, FEE2, FEE3, FEE4, GTLLX, KZID, CJLID)
 values (10990, 2, 15, '泰山', '磁窑', 34, null, 0, null, '1', null, null, null, null, null, null, null, null);
+
+
+
 
