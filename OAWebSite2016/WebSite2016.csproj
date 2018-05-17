@@ -429,6 +429,7 @@
     <None Include="Document\工作整体计划表.xls" />
     <None Include="Document\项目工作周计划表.xls" />
     <None Include="Document\项目工作月计划表.xls" />
+    <None Include="MoneyDB\1.bak" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
